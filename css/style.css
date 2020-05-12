@@ -1,0 +1,333 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+/* header section start*/
+
+header{
+	background: #f6f9f9;
+	padding: 29px 0px;
+	width: 100%;
+	float: left;
+}
+
+.logo{
+
+	width: 30%;
+
+	float: left;
+}
+
+.logo img{
+
+}
+
+.manu{
+
+	width: 70%;
+
+	float: left;
+}
+
+nav ul{
+
+	list-style: none;
+}
+nav ul li{
+
+	display: inline-block;
+
+	margin: 10px 40px;
+}
+
+
+nav ul a{
+
+	text-decoration: none;
+
+	color: black;
+
+	font-size: 20px;
+
+	text-transform: uppercase;
+}
+/*banner section*/
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover; 
+}
+
+.banner-content{
+	padding-top: 215px;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.banner-content h2{
+	font-size: 120px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.banner-content span{
+	display: block;
+	border-bottom: 2px solid #15a4fa;
+	margin: 17px auto;
+	width: 78%;
+}
+
+.banner-content p{
+	color: #fff;
+	font-weight: 300;
+}
+
+
+.btn{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	padding: 8px 18px;
+	color: #fff;
+	margin: 52px 0px 115px;
+}
+
+.btn-icon{
+	color: #fff;
+	margin-bottom: 72px
+}
+
+/*about*/
+
+.about{
+	background: #f6f9f9;
+	width: 100%;
+	float: left;
+}
+
+.about-content{
+	text-align: center;
+	padding: 75px 0px;
+}
+
+
+.about-content h2{
+	font-size: 30px;
+	margin: 4px auto;
+}
+
+.about-content p{
+	text-align: center;
+	padding: 10px 50px
+
+}
+
+/*--icon--*/
+
+.icons {
+  width: 100%;
+  float: left;
+}
+
+.icon .container {
+  background: #f6f9f9;
+  width: 87%;
+  margin-left: 110px;
+}
+
+.icon .icon1 {
+  width: 20%;
+  float: left;
+  margin-left: 0px;
+  text-align: center;
+  padding: 50px 65px;
+  
+}
+
+.icon h2 {
+  color: #2d3950;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.icon p {
+  color: #909090;
+  font-size: 12px;
+}
+
+.icon .ii {
+  color: #9966ff;
+  background: none;
+  width: 20%;
+  margin: 0 auto;
+  font-size: 35px;
+  padding: 18px 5px;
+  margin-bottom: 1px;
+}
+
+/*portfolio*/
+
+.portfolio-about{
+	background: #f6f9f9;
+	width: 100%;
+	float: left;
+}
+
+.about-p{
+	text-align: center;
+	padding: 75px 0px;
+}
+
+
+.about-p h2{
+	font-size: 30px;
+	margin: 4px auto;
+}
+
+.about-p p{
+	text-align: center;
+	padding: 10px 50px
+
+}
+
+/*--portfolio--*/
+
+
+.portfolio {
+  width: 100%;
+  float: left;
+}
+
+.portfolio .portfolio-one {
+	margin: 10px auto;
+}
+
+.portfolio .image {
+  width: 26%;
+  float: left;
+  padding: 30px 83px 0 0;
+  margin: 0 auto;
+}
+
+.portfolio h3 {
+  color: #2d3950;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 32px;
+}
+
+.portfolio p {
+  color: #909090;
+  text-align: center;
+  margin: 15px auto;
+}
+
+
+/* form section */
+.formsec1 {
+  width: 100%;
+  padding: 28px;
+  margin-top: 85px;
+  float: left;
+  background: url(../img/p8.png);
+  margin: 95px auto 0;
+}
+
+.formsec {
+  text-align: center;
+}
+
+.formsec h2 {
+  color: white;
+  font-size: 45px;
+  font-weight: 350;
+  margin: 0;
+  padding-top: 10px;
+  margin-top: 33px;
+}
+
+.formsec p {
+  color: #999999;
+  font-size: 13px;
+  margin: 15px;
+}
+
+.formsec .frm {
+  border-radius: 0px;
+  padding: 16px;
+  margin: 9px;
+  width: 35%;
+  background: transparent;
+  border: 1px solid #9999DE;
+}
+
+.formsec1 nav ul {
+  width: 41%;
+  margin: 0 auto;
+}
+
+.formsec1 nav ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.formsec1 .lbl {
+  color:#ffffff;
+  padding: 0px 107px 0px 6px;
+}
+
+.formsec1 button {
+  color:#ffffff;
+  border: 2px solid #15a4fa;
+  background: transparent;
+  padding: 8px 17px;
+  font-size: 16px;
+  border-radius: 0px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background: #f6f9f9;
+  float: left;
+}
+
+footer p {
+  color: #0000007a;
+  padding: 19px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer .fpp {
+  width: 45%;
+  float: left;
+}
+
+.fpp nav ul li {
+  width: 0%;
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 4px;
+  padding: 9px;
+}
+
+.fpp nav {
+  margin-left: 407px;
+}
